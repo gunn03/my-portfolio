@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: black;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.custom-container {
+    width: 100%;
+    height: 100%;
+    /* CSS SMOOTH SCROLL*/
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    float: inline-block;
+    text-align: top;
+    
+    
+}
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.navbar ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+    float: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.navbar ul li a:hover {
+    color: rgb(168, 164, 164);
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+}
+
+.james{
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+    border: 5px solid black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+section p{
+    font-size: 1.5rem;
+}
+
+section#home{
+    background: white; /*no-repeat center center/cover;;*/
+
+}
+
+section#about{
+    background: orange /*no-repeat center center/cover;;*/
+    
+}
+section#portfolio{
+
+    background:purple/*no repeat center center/cover:;;*/
+}
+
+section#contact{
+    background: green; /*no repeat center center/cover:;;*/
+    
+}
+
+section#getintouch{
+    background: black;
+}
+
+#about{
+    color: white;
+}
+
+#portfolio{
+    color: white;
+}
+
+#contact{
+    color: white;
+    text-align:center;
+    padding-left: 0px;
+    
+}
+
+#getintouch{
+    color: white;
+}
+#message{
+    height: 150px;
+    width: 180px;
+
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(168, 164, 164);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
