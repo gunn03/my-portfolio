@@ -6,22 +6,21 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: #333;
-    color: black;
+    color: #000000;
     line-height: 1.6;
     height: 100vh;
     overflow: hidden;
 }
 
-.custom-container {
+.custom-container{
     width: 100%;
     height: 100%;
     /* CSS SMOOTH SCROLL*/
     overflow-y: auto;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
-
-}
-
+}  
+ 
 .navbar{
     position: fixed;
     top: 0;
@@ -29,21 +28,18 @@ body{
     display: flex;
     width: 100%;
     height: 60px;
-    background-color: black;
+    background-color: #000000;
     float: inline-start;
     text-align: left;
     padding: 0;
-    
-    
 }
-
 
 .navbar ul{
     display: flex;
     list-style: none;
     width: 100%;
     justify-content: center;
-    
+    background-color: #000000;
 }
 
 .navbar ul li{
@@ -52,18 +48,22 @@ body{
     float: inline-start;
 }
 
-.navbar ul li a {
+.navbar ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: gray;
+    color:#808080;
 }
 
-.navbar ul li a:hover {
-    color: rgb(168, 164, 164);
+.navbar ul li a:hover{
+    color: #a8a4a4;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler-icon{
     text-align: center;
+}
+
+.fa-solid fa-bars{
+    color:#808080;
 }
 
 
@@ -72,10 +72,11 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 150%;
-    border: 5px solid black;
+    border: 5px solid #000000;
+    object-fit: cover;
 }
 
-section {
+section{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,10 +85,9 @@ section {
     width: 100%;
     height: 100%;
     scroll-snap-align: center;
-
 }
 
-section h1 {
+section h1{
     font-size: 3rem;
 }
 
@@ -96,76 +96,71 @@ section p{
 }
 
 section#home{
-    background: white; /*no-repeat center center/cover;;*/
-
+    background: #ffffff; 
 }
 
 section#about{
-    background: orange /*no-repeat center center/cover;;*/
-    
+    background: #ffa500;
 }
 section#portfolio{
-
-    background:purple/*no repeat center center/cover:;;*/
+    background: #800080;
 }
 
 section#contact{
-    background: green; /*no repeat center center/cover:;;*/
-    
+    background: #008000;
 }
 
+
 section#getintouch{
-    background: black;
+    background: #000000;
 }
 
 #about{
-    color: white;
+    color: #ffffff;
 }
 
 #portfolio{
-    color: white;
+    color: #ffffff;
 }
 
 #contact{
-    color: white;
+    color: #ffffff;
     text-align:center;
     padding-left: 0px;
-    
 }
 
 #getintouch{
-    color: white;
+    color: #ffffff;
 }
+
 #message{
     height: 150px;
     width: 180px;
     border: 0;
-
-
 }
 
-input[type=submit] {
-  background-color: white;
-  color: black;
+input[type=submit]{
+  background-color: #ffffff;
+  color: #000000;
   padding: 12px 20px;
   border: none;
   border-radius: 0px;
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: rgb(168, 164, 164);
+input[type=submit]:hover{
+  background-color: #a8a4a4;
 }
 
-
-footer {
+footer{
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
+  padding: 0.5rem;
 }
 
 
