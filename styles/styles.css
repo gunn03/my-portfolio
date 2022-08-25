@@ -11,6 +11,9 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+h1{
+   text-transform: uppercase;    
+}
 
 .custom-container{
     width: 100%;
@@ -39,7 +42,7 @@ body{
     list-style: none;
     width: 100%;
     justify-content: center;
-    background-color: #000000;
+    background-color: #000000
 }
 
 .navbar ul li{
@@ -61,11 +64,6 @@ body{
 .navbar-toggler-icon{
     text-align: center;
 }
-
-.fa-solid fa-bars{
-    color:#808080;
-}
-
 
 .james{
     vertical-align: middle;
@@ -146,6 +144,12 @@ input[type=submit]{
   border: none;
   border-radius: 0px;
   cursor: pointer;
+}
+
+#submit{
+    background-color: #008000;
+    color: #ffffff;
+    border: none;
 }
 
 input[type=submit]:hover{
