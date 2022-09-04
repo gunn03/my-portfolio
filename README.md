@@ -8,8 +8,9 @@ This project show cases a lot of what i have learnt so far during this course. I
 
 This project is completely responsive on both a desktop and mobile.
 
-I have used the scroll-snap-type attribute in css, this snap a section into view as the user scrolls through the page. 
+I used a single scroll page rather than a page that opens new tabs, making it easy for the user to navigate.
 
+I have used the scroll-snap-type attribute in css, this snaps a section into view as the user scrolls through the page. 
 
 I have used a Nav Bar toggle for tablet view and smaller, this is to decrease clutter and content overload for the user.
 
