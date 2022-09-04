@@ -35,7 +35,7 @@ This webpage can be found at https://gunn03.github.io/my-portfolio/
 
 
 <h2>Media</h2>
-- The photo was uploaded from my personal photo library.
+The photo was uploaded from my personal photo library.
 
 Acknowledgements
 Nav bar code came from bootstrap.

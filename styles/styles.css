@@ -11,6 +11,7 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+
 h1{
    text-transform: uppercase;    
 }
@@ -34,7 +35,7 @@ h1{
     background-color: #000000;
     float: inline-start;
     text-align: left;
-    padding: 0;
+    padding-left: 0%;
 }
 
 .navbar ul{
@@ -138,12 +139,12 @@ section#getintouch{
 }
 
 input[type=submit]{
-  background-color: #ffffff;
-  color: #000000;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 0px;
-  cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
 }
 
 #submit{
@@ -153,18 +154,18 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-  background-color: #a8a4a4;
+    background-color: #a8a4a4;
 }
 
 footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
-  padding: 0.5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5rem;
 }
 
 
